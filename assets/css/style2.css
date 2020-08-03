@@ -1,0 +1,144 @@
+html, body{
+    background:#979790;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /* agar tidak bisa scroll */
+    height: 100%;
+    font-family: 'roboto_slabregular';
+    background-image: radial-gradient(circle farthest-corner at  left, rgb(167, 144, 144), rgb(63, 99, 165));
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('font/RobotoSlab-Regular-webfont.woff') format('woff');
+    font-style: normal;
+    font-size: normal;
+}
+
+#intro #text{
+    font-size:70px;
+    font-weight: 450;
+    /* width: 5.9 em; */
+    height: 2.5em;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    text-shadow:0 7px 5px white;
+    color: rgb(36, 11, 36);
+}
+
+#intro #intro-button #start {
+    position: absolute;
+    left: 47.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background:none;
+    font-size:20px;
+    font-weight:bold;
+    border:solid 2px black;
+    border-radius:25px;
+    width:100px;
+    height:40px;
+    display: none;
+    cursor: pointer;
+}
+
+#menu {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 5px 0px;
+    text-align: right;
+    display: none;
+}
+
+#menu ul li a {
+    cursor: pointer;
+    font-size: 14pt;
+    font-style: bold;
+    text-decoration: none;
+    color:black;
+}
+
+#menu ul li a:hover{
+    border-left: 3px solid white;
+    padding-left: 5px;
+}
+
+#menu ul li.active a{
+    border-bottom: 3px solid white;
+}
+
+#menu ul li.active a:hover{
+    border-left: none;
+}
+
+.container-content{
+    display: none;
+}
+
+#menu1 img{
+    margin: 180px 0px 0px 60px;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 400px;
+}
+
+h3.title{
+    position: absolute;
+    top: -20px;
+    left: 520px;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+#menu1 div{
+    width: 650px;
+    top:160px;
+    left: 520px;
+    position: absolute;
+}
+
+#out_team{
+    margin-left:70px;
+}
+
+#our_team .members{
+    float:left;
+    margin:0px 10px;
+    background: white;
+    padding-left: 5px 5px 15px 5px;
+    border-radius: 5px;
+    border:solid white 5px;
+}
+
+#our_team .members.top240{
+    margin-top: 250px;
+}
+
+#our_team .members.top170{
+    margin-top: 170px;
+}
+
+#our_team .members img{
+    width: 230px;
+}
+
+#our_team .members h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0px 2px 0px;
+}
+
+#our_team .members span{
+    font-size: 15;
+    font-style: italic;
+}
